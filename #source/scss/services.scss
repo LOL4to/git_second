@@ -1,0 +1,92 @@
+.container-services {
+  margin-bottom: 248px;
+}
+
+.services-title {
+  margin-top: 2px;
+  margin-bottom: 33px;
+}
+
+.services-subtitle {
+  max-width: 929px;
+  margin-bottom: 80px;
+}
+
+.services-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.services-item {
+  max-width: 360px;
+  height: 354px;
+  padding: 40px 46px;
+  margin: 0 10px;
+  margin-bottom: 37px;
+  border-radius: 50px;
+  box-shadow: 10px 40px 50px 0 rgba(229, 233, 246, 0.4);
+}
+
+.services__item-icon {
+  max-width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 22px;
+  //если что ниже убрать, иконки
+  & img {
+    height: 100%;
+  }
+}
+
+.services__item-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 1px;
+}
+
+.services__item-subtext {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  text-align: left;
+  vertical-align: top;
+}
+
+.services__btn {
+  max-width: 200px;
+  border: 1px #458ff6 solid;
+  border-radius: 55px;
+  margin: auto;
+  transition-duration: 1.6s;
+  &:hover {
+    background-color: #458ff6;
+  }
+  &_link {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    padding: 18px 47px;
+    color: #458ff6;
+    &:hover {
+      color: #000000;
+      transform-origin: center;
+      transform: scale(1.1, 1.1);
+    }
+  }
+}

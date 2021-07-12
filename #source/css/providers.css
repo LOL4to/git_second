@@ -1,0 +1,17 @@
+.providers-row {
+  margin-bottom: 248px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.providers__img {
+  width: 545px;
+}
+.providers__img img {
+  width: 100%;
+}
+
+.providers-col {
+  width: 450px;
+}

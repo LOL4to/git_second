@@ -1,0 +1,160 @@
+.footer {
+  margin-top: 202px;
+}
+.container-footer {
+  background: linear-gradient(#67c3f3 60%, #5a98f2 100%);
+}
+
+.box-footer {
+  padding-top: 116px;
+  padding-bottom: 109px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__info {
+  height: 201px;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer-trafalgar {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 17px;
+  &::before {
+    content: 'T';
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 43px;
+    text-align: center;
+    color: #5b9bf3;
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 12px;
+  }
+}
+
+.footer__text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+.footer__subtext-block {
+}
+.footer__subtext {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer__list_company {
+  height: 214px;
+  & :hover {
+    color: rgba($color: #000000, $alpha: 0.7);
+    list-style-type: disc;
+    transform: scale(1.1, 1.1);
+  }
+  & a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+}
+.footer__list_region {
+  height: 214px;
+  & :hover {
+    color: rgba($color: #000000, $alpha: 0.7);
+    list-style-type: disc;
+    transform: scale(1.1, 1.1);
+  }
+  & a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+}
+
+.footer__list_help {
+  height: 214px;
+  & :hover {
+    color: rgba($color: #000000, $alpha: 0.7);
+    list-style-type: disc;
+    transform: scale(1.1, 1.1);
+  }
+  & a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+}
+.footer__item_company {
+  & a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+}
+.footer__item_region {
+  & a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+}
+
+.footer__item_help {
+  a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+}
+.footer__item_about {
+}
+.footer__item_testimonials {
+}
+.footer__item_find {
+}
+.footer__item_apps {
+}
+.footer__item_indonesia {
+}
+.footer__item_Singapore {
+}
+.footer__item_Hongkong {
+}
+.footer__item_Canada {
+}
+.footer__item_helpcenter {
+}
+.footer__item_contact {
+}
+.footer__item_instructions {
+}
+.footer__item_howitworks {
+}

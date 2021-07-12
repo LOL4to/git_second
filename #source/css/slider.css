@@ -1,0 +1,145 @@
+.slider {
+  min-width: 0;
+  max-width: 1120px;
+  height: 425px;
+  padding: 15px auto 0px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+.slider .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 30px;
+  margin: -15px 0 0 0;
+}
+.slider .slick-arrow:active {
+  border: 0px;
+}
+.slider .slick-prev {
+  left: 30%;
+  bottom: 5%;
+  background: url("/img/svg/arrow-left.svg") 0 0/100% no-repeat;
+  border: 0;
+  color: #fff;
+}
+.slider .slick-next {
+  right: 30%;
+  bottom: 5%;
+  background: url("/img/svg/arrow-right.svg") 0 0/100% no-repeat;
+  border: 0;
+}
+.slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.425);
+}
+.slider .slick-dots .slick-active button {
+  background-color: rgba(242, 90, 90, 0.3);
+  border: 1px solid black;
+}
+
+.container-sliders {
+  margin-bottom: 227px;
+}
+
+.slider__item {
+  transition: all 3s ease 0s;
+  opacity: 0.5;
+}
+.slider__item.slick-center {
+  opacity: 1;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.container-slider {
+  background: linear-gradient(#67c3f3 10%, #f25a5a 100%);
+  border-radius: 24px;
+}
+
+.slider-title {
+  color: #fff;
+  padding-top: 64px;
+  padding-bottom: 95px;
+}
+
+.temptitle-mid::after {
+  content: "";
+  background: #ffffff;
+}
+
+.slider-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider-card {
+  display: flex;
+  align-items: center;
+}
+
+.slider-item {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item-icon {
+  height: 100%;
+}
+
+.slider-about {
+  margin-left: 33px;
+}
+
+.slider-about-text {
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  line-height: 48px;
+  color: #fff;
+}
+.slider-about-text span {
+  font-size: 36px;
+  color: #55022c;
+}
+
+.slider-about-subtext {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.slider-description {
+  width: 420px;
+  font-family: "Mulish", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}

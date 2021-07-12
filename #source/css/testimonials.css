@@ -1,0 +1,5 @@
+.testimonials-read_link::after {
+  content: "Alibaba";
+  background: url(/img/svg/arrow-right.svg) 0 0/100% no-repeat;
+  font-size: 40px;
+}

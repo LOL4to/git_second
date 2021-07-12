@@ -1,0 +1,71 @@
+.apps-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 274px;
+}
+
+.apps-col {
+  width: 415px;
+}
+
+.apps-title {
+  line-height: 48px;
+}
+
+.apps-subtitle {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.apps__btn {
+  width: 200px;
+  border: 1.4px #458ff6 solid;
+  border-radius: 55px;
+  line-height: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apps__btn:hover {
+  background-color: #dffeff;
+}
+.apps__btn a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  padding: 16px 47px;
+  color: #458ff6;
+  transition-duration: 1.6s;
+}
+.apps__btn a:hover {
+  transform-origin: center;
+  transform: scale(1.3, 1.1);
+}
+.apps__btn a::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url("/img/svg/Vector-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.apps__btn a::after:hover {
+  transform-origin: center;
+  transform: scale(1.3, 1.1);
+}
+
+.apps__img {
+  width: 551px;
+  display: flex;
+  justify-content: center;
+}
+.apps__img img {
+  width: 100%;
+}
